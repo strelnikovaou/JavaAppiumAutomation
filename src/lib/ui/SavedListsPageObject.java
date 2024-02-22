@@ -53,5 +53,4 @@ public class SavedListsPageObject extends MainPageObject {
                 15);
     }
 
-
 }
