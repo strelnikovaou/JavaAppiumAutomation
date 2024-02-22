@@ -127,16 +127,4 @@ public class MainPageObject {
             throw new AssertionError(defaultMessage + " " + errorMessage);
         }
     }
-
-    //   public WebElement waitForElementAndGetAttribute(By by, String attribute, String errorMessage, long timeOutSeconds ){
-//      WebElement element= waitForElementPresent(by, errorMessage, timeOutSeconds);
-
-//      if(element.isDisplayed()){
-
-//          System.out.println("element");
-//          return element;
-//      }
-//       System.out.println("null");
-//         return null;
-//   }
 }

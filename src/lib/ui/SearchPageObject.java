@@ -96,4 +96,6 @@ public class SearchPageObject extends MainPageObject {
                 "We supposed not to find any results");
     }
 
+
+
 }
