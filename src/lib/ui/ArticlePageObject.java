@@ -1,6 +1,7 @@
 package lib.ui;
 
 import io.appium.java_client.AppiumDriver;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -47,6 +48,9 @@ public class ArticlePageObject extends MainPageObject {
         }
     }
 
+    public void assertElementPresent(String title, String errorMessage) {
+        Assert.assertTrue(errorMessage, isTitlePresent(title));
+    }
 
     public void swipeToFooter() {
         this.swipeUpToFindElement(
